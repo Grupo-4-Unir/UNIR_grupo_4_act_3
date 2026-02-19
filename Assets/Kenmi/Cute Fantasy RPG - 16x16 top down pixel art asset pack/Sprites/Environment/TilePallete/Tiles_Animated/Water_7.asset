@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: Water_7
   m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
-  m_AnimatedSprites: []
-  m_MinSpeed: 1
-  m_MaxSpeed: 1
+  m_AnimatedSprites:
+  - {fileID: 1792943622, guid: 34a3d0703715dca41afbbe4061a48396, type: 3}
+  - {fileID: 1131451306, guid: 34a3d0703715dca41afbbe4061a48396, type: 3}
+  - {fileID: -1635291665, guid: 34a3d0703715dca41afbbe4061a48396, type: 3}
+  - {fileID: 587636150, guid: 34a3d0703715dca41afbbe4061a48396, type: 3}
+  - {fileID: 230053041, guid: 34a3d0703715dca41afbbe4061a48396, type: 3}
+  - {fileID: -1586352616, guid: 34a3d0703715dca41afbbe4061a48396, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0

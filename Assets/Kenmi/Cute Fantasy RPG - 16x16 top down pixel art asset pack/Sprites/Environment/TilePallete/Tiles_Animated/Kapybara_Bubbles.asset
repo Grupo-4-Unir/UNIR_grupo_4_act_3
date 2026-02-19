@@ -12,9 +12,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: Kapybara_Bubbles
   m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
-  m_AnimatedSprites: []
-  m_MinSpeed: 1
-  m_MaxSpeed: 1
+  m_AnimatedSprites:
+  - {fileID: 247976060, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 1969123752, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -2022072509, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -1641797459, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -890796983, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -1165040618, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -855071973, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 50987461, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 431311576, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 853368899, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -979900070, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 2032897612, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -1126764059, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 22420594, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 1479727139, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -949133451, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 1797564014, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 1878536752, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -991007033, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 2058287669, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 1245040384, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -931385852, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 2050974599, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: -244880870, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  - {fileID: 1327425564, guid: 7779f5480ce9f6d4ca47a76b5a6ec68c, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0
