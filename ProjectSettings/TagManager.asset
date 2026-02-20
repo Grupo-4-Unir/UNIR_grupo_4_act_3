@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - dialoger
   layers:
   - Default
   - TransparentFX
@@ -55,6 +56,9 @@ TagManager:
     locked: 0
   - name: Characters
     uniqueID: 3941151147
+    locked: 0
+  - name: Dialogs
+    uniqueID: 1095247157
     locked: 0
   m_RenderingLayers:
   - Default
