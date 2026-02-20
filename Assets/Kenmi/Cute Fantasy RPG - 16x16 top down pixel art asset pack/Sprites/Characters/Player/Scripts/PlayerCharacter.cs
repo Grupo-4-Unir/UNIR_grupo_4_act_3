@@ -5,7 +5,7 @@ using UnityEngine.InputSystem.LowLevel;
 public class PlayerCharacter : BaseCharacter
 {
     [SerializeField] InputActionReference move;
-    Animator animator;
+    Animator animator;  
 
     [SerializeField]
     private bool canMove = true;
