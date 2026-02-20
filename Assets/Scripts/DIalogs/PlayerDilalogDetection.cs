@@ -18,7 +18,7 @@ public class PlayerDilalogDetection : MonoBehaviour
         if (collision.CompareTag("dialoger"))
         {
             //print("Player entered dialog trigger " + collision.gameObject.name);
-            DialogManager.Instance.EndDialog();
+            DialogManager.Instance.OutOfDialogBox();
         }
     }
 }
