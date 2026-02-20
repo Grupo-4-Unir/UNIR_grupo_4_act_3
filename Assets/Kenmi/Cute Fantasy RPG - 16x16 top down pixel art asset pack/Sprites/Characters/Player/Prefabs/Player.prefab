@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1565938963950263815}
   - component: {fileID: 2181574745947296594}
   - component: {fileID: 4261086480547764048}
+  - component: {fileID: 1883058841294744751}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -209,3 +210,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14d49f8d5de96184d8068aeb6bae27a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDilalogDetection
+--- !u!114 &1883058841294744751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232245215808304051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92540d48c90f1a9498cc9632ac1b64cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerItemDetector
