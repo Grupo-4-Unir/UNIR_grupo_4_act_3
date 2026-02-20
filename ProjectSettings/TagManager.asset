@@ -41,5 +41,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1680058101
+    locked: 0
+  - name: Static_Environment
+    uniqueID: 1451491465
+    locked: 0
+  - name: Collisions/Interactive
+    uniqueID: 2308038861
+    locked: 0
+  - name: Decorations
+    uniqueID: 3174337123
+    locked: 0
+  - name: Characters
+    uniqueID: 3941151147
+    locked: 0
   m_RenderingLayers:
   - Default
