@@ -120,6 +120,15 @@ public class DialogManager : MonoBehaviour
         currentDialoger.OnDialogEnd.Invoke();
     }
 
+    public void OutOfDialogBox()
+    {
+        HideIconDialog();
+        dialogBox.SetActive(false);
+        onTalk = false;
+        currentDialoger.ActiveNode = 0;
+        player.CanMove = true;        
+    }
+
 
 
 }
