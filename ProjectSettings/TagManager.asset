@@ -6,6 +6,7 @@ TagManager:
   tags:
   - dialoger
   - item
+  - activator
   layers:
   - Default
   - TransparentFX

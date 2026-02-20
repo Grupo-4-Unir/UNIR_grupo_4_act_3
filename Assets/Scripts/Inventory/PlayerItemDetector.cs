@@ -8,5 +8,10 @@ public class PlayerItemDetector : MonoBehaviour
         {
             collision.GetComponent<itemInteractuable>().TakeItem();
         }
+
+        if (collision.CompareTag("activator"))
+        {
+            collision.GetComponent<ItemActivators>().CheckItem();
+        }
     }
 }
