@@ -7,6 +7,10 @@ public class PlayerCharacter : BaseCharacter
     [SerializeField] InputActionReference move;
     Animator animator;
 
+    [SerializeField]
+    private bool canMove = true;
+    public bool CanMove { get => canMove; set => canMove = value; }
+
     protected override void Awake()
     {
         base.Awake();
@@ -24,6 +28,8 @@ public class PlayerCharacter : BaseCharacter
 
     protected override void Update()
     {
+        if (!CanMove) return;
+
         base.Update();
         rawMove = move.action.ReadValue<Vector2>();
         Move(rawMove);
@@ -39,6 +45,9 @@ public class PlayerCharacter : BaseCharacter
     }
 
     Vector2 rawMove;
+
+    
+
     private void OnMove(InputAction.CallbackContext context)
     {
         rawMove = context.action.ReadValue<Vector2>();
