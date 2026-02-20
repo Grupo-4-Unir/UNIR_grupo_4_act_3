@@ -319,6 +319,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: HUD_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 84
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 13, y: 13, z: 13, w: 13}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f9e9d5e01d25b46b6ddd0d20972dcc
+      internalID: -981157615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -336,6 +358,7 @@ TextureImporter:
       Box: -7859544607282556093
       Box_bg_1: -174363329
       Box_bg_2: -8154498446710104070
+      HUD_0: -981157615
       HUD_5: 8996260626950966665
       HUD_6: 4529786283596834260
       Healing: 1229794671371557974
