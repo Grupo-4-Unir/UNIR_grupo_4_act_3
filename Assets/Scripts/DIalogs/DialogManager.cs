@@ -62,7 +62,7 @@ public class DialogManager : MonoBehaviour
     { 
         if (!canTalk || !currentDialoger) return;        
 
-        print("Talk action performed");
+        //print("Talk action performed");
 
         if (!onTalk)
         {
@@ -100,7 +100,7 @@ public class DialogManager : MonoBehaviour
         if (currentDialoger.ActiveNode >= currentDialoger.dialogs.Length)
         {
             EndDialog();
-            print("End of dialog");
+            //print("End of dialog");
             return true;
         }
         else

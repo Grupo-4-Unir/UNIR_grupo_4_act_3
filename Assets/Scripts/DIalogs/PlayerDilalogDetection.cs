@@ -8,7 +8,7 @@ public class PlayerDilalogDetection : MonoBehaviour
     {
         if (collision.CompareTag("dialoger"))
         {
-            print("Player entered dialog trigger " + collision.gameObject.name);
+            //print("Player entered dialog trigger " + collision.gameObject.name);
             DialogManager.Instance.ShowIconDialog(collision.gameObject.transform, collision.GetComponent<Dialoger>());
         }        
     }
@@ -17,7 +17,7 @@ public class PlayerDilalogDetection : MonoBehaviour
     {
         if (collision.CompareTag("dialoger"))
         {
-            print("Player entered dialog trigger " + collision.gameObject.name);
+            //print("Player entered dialog trigger " + collision.gameObject.name);
             DialogManager.Instance.EndDialog();
         }
     }
