@@ -3,7 +3,7 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     [SerializeField]
-    InventoryScriptable inventoryScriptable;
+    public InventoryScriptable inventoryScriptable;
 
     private void Start()
     {
@@ -28,7 +28,9 @@ public class InventoryManager : MonoBehaviour
         foreach (var item in inventoryScriptable.items)
         {
             var i = Instantiate(uiItem, container.transform);
-            i.GetComponent<UiItem>().SetData(item);
+            var _item = i.GetComponent<UiItem>();
+            _item.SetData(item);
+            _item.SetColor();
         }
     }
 
