@@ -1,3 +1,4 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,11 +13,14 @@ public class UiItem : MonoBehaviour
     [SerializeField]
     TMPro.TextMeshProUGUI itemName;
 
+    public static event Action OnItemClicked;
+
     [SerializeField]
-    Color[] colors;
+    Color[] colors;   
 
     private void OnEnable()
     {
+        OnItemClicked.Invoke();
         print("ui item enabled");
 
         itemName.text = _item.itemName;
@@ -67,12 +71,16 @@ public class UiItem : MonoBehaviour
 
     public void SetActiveItem()
     {
+        
+
         ResetItemsColors();
 
         if (FindAnyObjectByType<InventoryManager>().SetItemActive(_item))
             GetComponent<Image>().color = colors[1];
         else
             GetComponent<Image>().color = colors[0];
+
+        OnItemClicked.Invoke();
 
     }
 
@@ -87,5 +95,7 @@ public class UiItem : MonoBehaviour
             item1.GetComponent<Image>().color = colors[0];
         }
     }
+
+
 
 }
