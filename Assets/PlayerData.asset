@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c45666ba5d09504a8152500a339b1e5, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: Assembly-CSharp::PlayerData
-  PlayerPos_scene0: {x: 1.0377464, y: 3.3689094, z: 0}
+  PlayerPos_scene0: {x: 0, y: 0, z: 0}
   PlayerPos_scene1: {x: 0, y: 0, z: 0}
-  doorOpened: 1
-  satarScreenSaw: 1
+  doorOpened: 0
+  satarScreenSaw: 0

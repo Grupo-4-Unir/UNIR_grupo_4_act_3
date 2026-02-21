@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5ce6284d750824cab6a9dcd0c9ebcd, type: 3}
   m_Name: Flor
   m_EditorClassIdentifier: Assembly-CSharp::item
-  itemName: 
+  itemName: Flor
   itemImage: {fileID: -1415908523, guid: 91b14c99d6ab82445adbe01fd46ebac0, type: 3}

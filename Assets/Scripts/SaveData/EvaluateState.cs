@@ -6,13 +6,14 @@ public class EvaluateState : MonoBehaviour
     PlayerData playerData;
 
     [SerializeField]
-    GameObject startScreen, door, portal;
+    GameObject startScreen, door, portal, Flor;
     private void Start()
     {
         if (playerData.doorOpened)
         {
             door.SetActive(false);
             portal.SetActive(true);
+            Flor.SetActive(true);
         }
 
         if (playerData.satarScreenSaw)

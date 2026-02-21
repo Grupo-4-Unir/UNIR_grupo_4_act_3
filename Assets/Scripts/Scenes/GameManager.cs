@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public PlayerData playerData;
+    public InventoryScriptable inventoryScriptable;
 
     public static bool iniciarDirecto;
 
@@ -149,5 +150,16 @@ public class GameManager : MonoBehaviour
 
         // detener juego (simple)
         if (player != null) player.SetActive(false);
+    }
+
+    public void ResetGame()
+    {
+        playerData.PlayerPos_scene0 = Vector3.zero;
+        playerData.PlayerPos_scene1 = Vector3.zero;
+        playerData.doorOpened = false;
+        playerData.satarScreenSaw = false;
+
+        inventoryScriptable.itemActive = null;
+        inventoryScriptable.items.Clear();
     }
 }
