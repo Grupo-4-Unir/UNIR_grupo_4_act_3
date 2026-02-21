@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,9 +17,46 @@ public class UiItem : MonoBehaviour
 
     private void OnEnable()
     {
+        print("ui item enabled");
+
         itemName.text = _item.itemName;
         image.sprite = _item.itemImage;
+      
     }
+
+    public void SetColor()
+    {
+        print("Start set color");
+
+        var inventoryManager = FindAnyObjectByType<InventoryManager>();
+
+        if (!inventoryManager.inventoryScriptable.itemActive)
+        {
+            print("no active item");
+
+            GetComponent<Image>().color = colors[0];
+            return;
+        }
+        else
+        {
+            print("active item is " + inventoryManager.inventoryScriptable.itemActive.itemName);
+
+            if (inventoryManager.inventoryScriptable.itemActive.itemName == _item.itemName)
+            {
+                print("this is the active item");
+                GetComponent<Image>().color = colors[1];
+            }
+
+            else
+            {
+                print("not the  active item");
+                GetComponent<Image>().color = colors[0];
+            }
+
+        }
+    }
+
+    
 
     public void SetData(item newitem)
     {
@@ -32,14 +70,16 @@ public class UiItem : MonoBehaviour
         ResetItemsColors();
 
         if (FindAnyObjectByType<InventoryManager>().SetItemActive(_item))
-                        GetComponent<Image>().color = colors[1];
+            GetComponent<Image>().color = colors[1];
         else
             GetComponent<Image>().color = colors[0];
 
     }
 
     void ResetItemsColors()
-    {      
+    {
+        print("Colors reset");
+
         var items = transform.parent.GetComponentsInChildren<UiItem>();
 
         foreach (var item1 in items)
