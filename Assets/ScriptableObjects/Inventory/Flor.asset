@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc5ce6284d750824cab6a9dcd0c9ebcd, type: 3}
-  m_Name: Espada
+  m_Name: Flor
   m_EditorClassIdentifier: Assembly-CSharp::item
-  itemName: Espada
-  itemImage: {fileID: -635009911, guid: 7a45b40d73b994d43a78d06cb8eca45f, type: 3}
+  itemName: 
+  itemImage: {fileID: -1415908523, guid: 91b14c99d6ab82445adbe01fd46ebac0, type: 3}
