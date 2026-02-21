@@ -41,6 +41,11 @@ public class UiItem : MonoBehaviour
     void ResetItemsColors()
     {      
         var items = transform.parent.GetComponentsInChildren<UiItem>();
+
+        foreach (var item1 in items)
+        {
+            item1.GetComponent<Image>().color = colors[0];
+        }
     }
 
 }
