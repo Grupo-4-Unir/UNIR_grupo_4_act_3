@@ -14,7 +14,7 @@ public class SaveDataPos : MonoBehaviour
                    playerData.PlayerPos_scene0 = transform.position;
                 break;
             case 1:                
-                    playerData.PlayerPos_scene0 = transform.position;
+                    playerData.PlayerPos_scene1 = transform.position;
                 break;
         }
 
