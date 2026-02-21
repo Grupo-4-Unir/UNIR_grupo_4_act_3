@@ -12,12 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14141bd275035614e998f9432a2f7432, type: 3}
   m_Name: Inventario
   m_EditorClassIdentifier: Assembly-CSharp::InventoryScriptable
+  itemActive: {fileID: 11400000, guid: e0682409adf09a34f90efd7cfc1ad4fe, type: 2}
   items:
-  - {fileID: 11400000, guid: 08aa1445fdccefb4ebd0a2d438f97769, type: 2}
   - {fileID: 11400000, guid: e0682409adf09a34f90efd7cfc1ad4fe, type: 2}
   - {fileID: 11400000, guid: 08aa1445fdccefb4ebd0a2d438f97769, type: 2}
-  - {fileID: 11400000, guid: 08aa1445fdccefb4ebd0a2d438f97769, type: 2}
-  - {fileID: 11400000, guid: 08aa1445fdccefb4ebd0a2d438f97769, type: 2}
-  - {fileID: 11400000, guid: e0682409adf09a34f90efd7cfc1ad4fe, type: 2}
-  - {fileID: 11400000, guid: 08aa1445fdccefb4ebd0a2d438f97769, type: 2}
-  - {fileID: 11400000, guid: e0682409adf09a34f90efd7cfc1ad4fe, type: 2}

@@ -11,6 +11,9 @@ public class UiItem : MonoBehaviour
     [SerializeField]
     TMPro.TextMeshProUGUI itemName;
 
+    [SerializeField]
+    Color[] colors;
+
     private void OnEnable()
     {
         itemName.text = _item.itemName;
@@ -23,5 +26,21 @@ public class UiItem : MonoBehaviour
         itemName.text = _item.itemName;
         image.sprite = _item.itemImage;
     }
-    
+
+    public void SetActiveItem()
+    {
+        ResetItemsColors();
+
+        if (FindAnyObjectByType<InventoryManager>().SetItemActive(_item))
+                        GetComponent<Image>().color = colors[1];
+        else
+            GetComponent<Image>().color = colors[0];
+
+    }
+
+    void ResetItemsColors()
+    {      
+        var items = transform.parent.GetComponentsInChildren<UiItem>();
+    }
+
 }

@@ -37,4 +37,21 @@ public class InventoryManager : MonoBehaviour
         inventoryScriptable.items.Add(newitem);
         UpdateInventory();
     }
+
+    public bool SetItemActive(item _item)
+    {
+        if (inventoryScriptable.itemActive != _item)
+        {
+            inventoryScriptable.itemActive = _item;
+            return true;
+        }        
+        else
+        {
+            inventoryScriptable.itemActive = null;
+            return false;
+        }
+            
+    }
+
+    
 }
