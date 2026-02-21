@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97487d48601e16047ae06fa1aeb7a8e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
-  inventoryScriptable: {fileID: 11400000, guid: 4f4c06ffcff4dec439b6526f10d973e2, type: 2}
+  inventoryScriptable: {fileID: 11400000, guid: 1a88336ea2656f5429bd624056aa66c9, type: 2}
   container: {fileID: 5884920493406074565}
   uiItem: {fileID: 2224855383477639764, guid: 98d9189c7bee9bd4dbc9e2ba22209003, type: 3}
 --- !u!1 &3571747464668221368

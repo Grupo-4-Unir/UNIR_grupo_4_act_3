@@ -4,7 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static bool iniciarDirecto = false;
+    public PlayerData playerData;
+
+    public static bool iniciarDirecto;
 
     [Header("UI")]
     [SerializeField] private GameObject menuPrincipal;
@@ -25,6 +27,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        iniciarDirecto = playerData.satarScreenSaw;
+
         gameOverLanzado = false;
 
         if (iniciarDirecto)

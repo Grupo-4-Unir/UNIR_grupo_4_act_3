@@ -12,10 +12,12 @@ GameObject:
   - component: {fileID: 7115038627351036448}
   - component: {fileID: 3322476680171318131}
   - component: {fileID: 1309777979003868109}
+  - component: {fileID: 6982917914906749144}
   - component: {fileID: 1565938963950263815}
   - component: {fileID: 2181574745947296594}
   - component: {fileID: 4261086480547764048}
   - component: {fileID: 1883058841294744751}
+  - component: {fileID: 5680680291610796975}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -162,6 +164,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &6982917914906749144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232245215808304051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f304fbe8f6935e645a210fe01520d26e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaveDataPos
+  playerData: {fileID: 11400000, guid: fd8fa80ea3881de428de63d27635a884, type: 2}
 --- !u!114 &1565938963950263815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,6 +238,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92540d48c90f1a9498cc9632ac1b64cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerItemDetector
+--- !u!114 &5680680291610796975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232245215808304051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7753b04301a4cdb409d59d56bed597ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoadDataPos
+  playerData: {fileID: 11400000, guid: fd8fa80ea3881de428de63d27635a884, type: 2}
 --- !u!1 &6138708530506517358
 GameObject:
   m_ObjectHideFlags: 0
